@@ -32,7 +32,7 @@ module.exports = {
 
 	page: function(req, res){
 
-		//fetch tweets by page by param 
+		//fetch tweets by page by param
 		Tweet.getTweets(req.params.page, req.params.skip, function(tweets){
 
 			//render as JSON
